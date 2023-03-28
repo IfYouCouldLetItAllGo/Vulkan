@@ -17,7 +17,7 @@ class VConfigs(Singleton):
             # but the slower will be the others commands of the Bot during the downloading time, for example, the playback quality
             self.MAX_DOWNLOAD_SONGS_AT_A_TIME = 5
 
-            self.BOT_PREFIX = '!'
+            self.BOT_PREFIX = 'm!'
             try:
                 self.BOT_TOKEN = config('BOT_TOKEN')
                 self.SPOTIFY_ID = config('SPOTIFY_ID')
